@@ -50,4 +50,5 @@ int main()
     }
 
     TimeToSHOOTaPic();
+    return 0;
 }

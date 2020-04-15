@@ -16,12 +16,9 @@ int main()
         pid_t pid = fork();
         if (pid == 0)
         {
-            // we are in the grand child
-            /**
-             * 
             char *args[2] = {"./friend", NULL};
             execvp(args[0], args);
-            */
+            
            print("grand child");
         }
         else
